@@ -1,0 +1,40 @@
+Disorder,Feature,MaxValue,RowLabel
+Addictive,SVM AUC,0.877551020408163,Addictive_AEI_Theta_FCPCA
+Addictive,KNN AUC,0.829931972789116,Addictive_AEI_Delta_PSD
+Addictive,Random Forest AUC,0.914965986394558,Addictive_AEI_Beta_FCPCA
+Addictive,Logistic Regression AUC,0.870748299319728,Addictive_AEI_Beta_FCPCA
+Addictive,XGB AUC,0.836734693877551,Addictive_AEI_All_FCPCA
+Anxiety,SVM AUC,0.95959595959596,Anxiety_AEI_All_PSDPCA
+Anxiety,KNN AUC,0.934343434343434,Anxiety_AEI_HighBeta_PSDPCA
+Anxiety,Random Forest AUC,0.934343434343434,Anxiety_AEI_HighBeta_PSDPCA
+Anxiety,Logistic Regression AUC,0.94949494949495,Anxiety_AEI_HighBeta_PSDPCA
+Anxiety,Logistic Regression AUC,0.94949494949495,Anxiety_AEI_Gamma_PSDPCA
+Anxiety,XGB AUC,0.949494949494949,Anxiety_AEI_HighBeta_PSDPCA
+Mood,SVM AUC,0.991666666666667,Mood_AEI_Delta_PSDPCA
+Mood,KNN AUC,0.972222222222222,Mood_AEI_Theta_PSDPCA
+Mood,Random Forest AUC,0.994444444444445,Mood_AEI_Alpha_FCPCA
+Mood,Logistic Regression AUC,0.977777777777778,Mood_AEI_Delta_PSDPCA
+Mood,Logistic Regression AUC,0.977777777777778,Mood_AEI_Theta_PSDPCA
+Mood,Logistic Regression AUC,0.977777777777778,Mood_AEI_Beta_PSDPCA
+Mood,XGB AUC,0.966666666666667,Mood_AEI_Beta_PSDPCA
+OCD,SVM AUC,0.958333333333333,OCD_AEI_Theta_FCPCA
+OCD,SVM AUC,0.958333333333333,OCD_AEI_All_FCPCA
+OCD,KNN AUC,0.90625,OCD_AEI_Delta_PSDFCPCA
+OCD,Random Forest AUC,0.916666666666667,OCD_AEI_Delta_PSDFCPCA
+OCD,Logistic Regression AUC,0.9375,OCD_AEI_Theta_PSDFCPCA
+OCD,Logistic Regression AUC,0.9375,OCD_AEI_All_PSDFCPCA
+OCD,XGB AUC,0.916666666666667,OCD_AEI_All_FCPCA
+Schizo,SVM AUC,0.927272727272727,Schizo_AEI_Delta_PSDFCPCA
+Schizo,KNN AUC,0.963636363636364,Schizo_AEI_Beta_PSDFCPCA
+Schizo,Random Forest AUC,0.895454545454546,Schizo_AEI_HighBeta_PSDPCA
+Schizo,Logistic Regression AUC,0.936363636363636,Schizo_AEI_Theta_FCPCA
+Schizo,Logistic Regression AUC,0.936363636363636,Schizo_AEI_Beta_FCPCA
+Schizo,Logistic Regression AUC,0.936363636363636,Schizo_AEI_Beta_PSDFCPCA
+Schizo,XGB AUC,0.904545454545455,Schizo_AEI_HighBeta_PSDPCA
+Traumastress,SVM AUC,0.95,Traumastress_AEI_Theta_PSDFCPCA
+Traumastress,KNN AUC,0.916666666666667,Traumastress_AEI_Theta_PSDPCA
+Traumastress,Random Forest AUC,0.975,Traumastress_AEI_HighBeta_FCPCA
+Traumastress,Random Forest AUC,0.975,Traumastress_AEI_HighBeta_PSDFCPCA
+Traumastress,Logistic Regression AUC,0.966666666666667,Traumastress_AEI_HighBeta_FCPCA
+Traumastress,Logistic Regression AUC,0.966666666666667,Traumastress_AEI_HighBeta_PSDFCPCA
+Traumastress,XGB AUC,0.958333333333333,Traumastress_AEI_HighBeta_PSDPCA

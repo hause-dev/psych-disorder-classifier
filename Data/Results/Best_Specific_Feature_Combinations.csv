@@ -1,0 +1,111 @@
+Disorder,Feature,MaxValue,RowLabel
+Acute,SVM AUC,0.975,Acute_AEI_HighBeta_FCPCA
+Acute,KNN AUC,0.8125,Acute_AEI_Alpha_PSDPCA
+Acute,KNN AUC,0.8125,Acute_AEI_Gamma_PSD
+Acute,Random Forest AUC,0.8625,Acute_AEI_Alpha_PSDPCA
+Acute,Logistic Regression AUC,0.9,Acute_AEI_HighBeta_FCPCA
+Acute,XGB AUC,0.8125,Acute_AEI_Gamma_PSDPCA
+Adjustment,SVM AUC,1.0,Adjustment_AEI_Delta_PSDPCA
+Adjustment,SVM AUC,1.0,Adjustment_AEI_Theta_PSDPCA
+Adjustment,SVM AUC,1.0,Adjustment_AEI_All_PSDPCA
+Adjustment,KNN AUC,0.979591836734694,Adjustment_AEI_Beta_PSDPCA
+Adjustment,Random Forest AUC,1.0,Adjustment_AEI_Beta_PSDPCA
+Adjustment,Logistic Regression AUC,1.0,Adjustment_AEI_Delta_PSDPCA
+Adjustment,Logistic Regression AUC,1.0,Adjustment_AEI_Theta_PSDPCA
+Adjustment,Logistic Regression AUC,1.0,Adjustment_AEI_All_PSDPCA
+Adjustment,XGB AUC,1.0,Adjustment_AEI_Beta_PSDPCA
+Adjustment,XGB AUC,1.0,Adjustment_AEI_All_PSDPCA
+Alcohol,SVM AUC,0.9111111111111112,Alcohol_AEI_Theta_FCPCA
+Alcohol,KNN AUC,0.8222222222222222,Alcohol_AEI_Beta_PSDPCA
+Alcohol,Random Forest AUC,0.9166666666666669,Alcohol_AEI_Gamma_PSDPCA
+Alcohol,Logistic Regression AUC,0.9222222222222222,Alcohol_AEI_Theta_FCPCA
+Alcohol,XGB AUC,0.8999999999999999,Alcohol_AEI_Alpha_PSD
+Behavioral,SVM AUC,0.7833333333333333,Behavioral_AEI_All_FCPCA
+Behavioral,KNN AUC,0.7222222222222222,Behavioral_AEI_Theta_FCPCA
+Behavioral,Random Forest AUC,0.8333333333333334,Behavioral_AEI_Beta_FCPCA
+Behavioral,Logistic Regression AUC,0.788888888888889,Behavioral_AEI_Theta_FC
+Behavioral,XGB AUC,0.8333333333333334,Behavioral_AEI_All_FCPCA
+Bipolar,SVM AUC,1.0,Bipolar_AEI_All_PSDPCA
+Bipolar,KNN AUC,1.0,Bipolar_AEI_Delta_PSDPCA
+Bipolar,Random Forest AUC,1.0,Bipolar_AEI_Beta_PSDPCA
+Bipolar,Logistic Regression AUC,1.0,Bipolar_AEI_All_PSDPCA
+Bipolar,XGB AUC,0.96875,Bipolar_AEI_All_PSDPCA
+Bipolar,XGB AUC,0.96875,Bipolar_AEI_Beta_FCPCA
+Depressive,SVM AUC,0.936842105263158,Depressive_AEI_Theta_FCPCA
+Depressive,KNN AUC,0.8236842105263159,Depressive_AEI_Delta_PSDPCA
+Depressive,Random Forest AUC,0.894736842105263,Depressive_AEI_HighBeta_FCPCA
+Depressive,Logistic Regression AUC,0.936842105263158,Depressive_AEI_Theta_FCPCA
+Depressive,XGB AUC,0.9315789473684212,Depressive_AEI_Delta_FCPCA
+Panic,SVM AUC,0.8,Panic_AEI_Theta_FCPCA
+Panic,KNN AUC,0.7818181818181819,Panic_AEI_Theta_PSDPCA
+Panic,Random Forest AUC,0.7909090909090909,Panic_AEI_HighBeta_PSD
+Panic,Random Forest AUC,0.7909090909090909,Panic_AEI_Delta_FCPCA
+Panic,Random Forest AUC,0.7909090909090909,Panic_AEI_HighBeta_FCPCA
+Panic,Logistic Regression AUC,0.8181818181818182,Panic_AEI_Theta_FCPCA
+Panic,XGB AUC,0.9090909090909092,Panic_AEI_Beta_PSD
+PTSD,SVM AUC,0.931818181818182,PTSD_AEI_HighBeta_PSDPCA
+PTSD,KNN AUC,0.9545454545454546,PTSD_AEI_Beta_PSDPCA
+PTSD,Random Forest AUC,1.0,PTSD_AEI_HighBeta_PSDPCA
+PTSD,Logistic Regression AUC,0.9772727272727272,PTSD_AEI_Theta_FCPCA
+PTSD,XGB AUC,0.9545454545454544,PTSD_AEI_Beta_PSDPCA
+Social,SVM AUC,0.875,Social_AEI_All_FCPCA
+Social,KNN AUC,0.7589285714285714,Social_AEI_Delta_FC
+Social,KNN AUC,0.7589285714285714,Social_AEI_Delta_FCPCA
+Social,Random Forest AUC,0.8303571428571428,Social_AEI_Gamma_FCPCA
+Social,Logistic Regression AUC,0.8392857142857143,Social_AEI_All_FCPCA
+Social,XGB AUC,0.8928571428571428,Social_AEI_Theta_PSDPCA
+Acute.csv,SVM AUC,1.0,Acute.csv_Alpha_FC
+Acute.csv,SVM AUC,1.0,Acute.csv_HighBeta_FC
+Acute.csv,SVM AUC,1.0,Acute.csv_All_FC
+Acute.csv,KNN AUC,0.9166666666666666,Acute.csv_Alpha_FC
+Acute.csv,Random Forest AUC,1.0,Acute.csv_HighBeta_FC
+Acute.csv,Random Forest AUC,1.0,Acute.csv_HighBeta_FCPCA
+Acute.csv,Logistic Regression AUC,1.0,Acute.csv_All_FC
+Acute.csv,XGB AUC,1.0,Acute.csv_HighBeta_FC
+Acute.csv,XGB AUC,1.0,Acute.csv_All_FCPCA
+Panic.csv,SVM AUC,0.9206349206349208,Panic.csv_Delta_FC
+Panic.csv,KNN AUC,0.8545454545454546,Panic.csv_HighBeta_FC
+Panic.csv,Random Forest AUC,0.8909090909090909,Panic.csv_All_FC
+Panic.csv,Logistic Regression AUC,0.984375,Panic.csv_Alpha_FCPCA
+Panic.csv,XGB AUC,0.9523809523809524,Panic.csv_Delta_FC
+Social.csv,SVM AUC,0.9659090909090908,Social.csv_Gamma_FC
+Social.csv,KNN AUC,1.0,Social.csv_Delta_FC
+Social.csv,Random Forest AUC,0.9545454545454544,Social.csv_Gamma_FC
+Social.csv,Logistic Regression AUC,1.0,Social.csv_Theta_FC
+Social.csv,Logistic Regression AUC,1.0,Social.csv_HighBeta_FC
+Social.csv,XGB AUC,1.0,Social.csv_HighBeta_FC
+Social.csv,XGB AUC,1.0,Social.csv_Gamma_FC
+Depressive.csv,SVM AUC,0.7976190476190476,Depressive.csv_Alpha_FC
+Depressive.csv,KNN AUC,0.8897058823529412,Depressive.csv_Theta_FC
+Depressive.csv,Random Forest AUC,0.9166666666666669,Depressive.csv_Alpha_FC
+Depressive.csv,Logistic Regression AUC,0.8952380952380952,Depressive.csv_Gamma_FCPCA
+Depressive.csv,XGB AUC,0.9523809523809524,Depressive.csv_Alpha_FC
+Adjustment.csv,SVM AUC,1.0,Adjustment.csv_Theta_FC
+Adjustment.csv,KNN AUC,1.0,Adjustment.csv_Theta_FC
+Adjustment.csv,Random Forest AUC,1.0,Adjustment.csv_HighBeta_FC
+Adjustment.csv,Logistic Regression AUC,1.0,Adjustment.csv_Theta_FCPCA
+Adjustment.csv,Logistic Regression AUC,1.0,Adjustment.csv_Gamma_FC
+Adjustment.csv,XGB AUC,1.0,Adjustment.csv_Theta_FC
+Bipolar.csv,SVM AUC,0.8666666666666666,Bipolar.csv_HighBeta_FC
+Bipolar.csv,KNN AUC,0.8571428571428572,Bipolar.csv_Alpha_FC
+Bipolar.csv,Random Forest AUC,0.9285714285714286,Bipolar.csv_Alpha_FC
+Bipolar.csv,Logistic Regression AUC,0.95,Bipolar.csv_Theta_FCPCA
+Bipolar.csv,XGB AUC,0.975,Bipolar.csv_Beta_FC
+Behavioral.csv,SVM AUC,0.8295454545454546,Behavioral.csv_All_FC
+Behavioral.csv,KNN AUC,0.8579545454545455,Behavioral.csv_All_FC
+Behavioral.csv,Random Forest AUC,0.8352272727272728,Behavioral.csv_All_FC
+Behavioral.csv,Logistic Regression AUC,0.8068181818181819,Behavioral.csv_All_FC
+Behavioral.csv,XGB AUC,0.9871794871794872,Behavioral.csv_Beta_FC
+PTSD.csv,SVM AUC,1.0,PTSD.csv_Alpha_FC
+PTSD.csv,KNN AUC,0.8660714285714285,PTSD.csv_HighBeta_FC
+PTSD.csv,Random Forest AUC,0.9910714285714286,PTSD.csv_HighBeta_FC
+PTSD.csv,Logistic Regression AUC,1.0,PTSD.csv_Alpha_FC
+PTSD.csv,Logistic Regression AUC,1.0,PTSD.csv_Alpha_FCPCA
+PTSD.csv,Logistic Regression AUC,1.0,PTSD.csv_HighBeta_FCPCA
+PTSD.csv,XGB AUC,1.0,PTSD.csv_Alpha_FC
+PTSD.csv,XGB AUC,1.0,PTSD.csv_HighBeta_FC
+Alcohol.csv,SVM AUC,0.9545454545454546,Alcohol.csv_Theta_FC
+Alcohol.csv,KNN AUC,0.85,Alcohol.csv_All_FC
+Alcohol.csv,Random Forest AUC,0.9222222222222222,Alcohol.csv_Beta_FC
+Alcohol.csv,Logistic Regression AUC,0.9772727272727272,Alcohol.csv_Theta_FC
+Alcohol.csv,XGB AUC,0.9545454545454546,Alcohol.csv_Theta_FC
