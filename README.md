@@ -11,12 +11,17 @@ git clone https://github.com/hause-dev/psych-disorder-classifier.git
 ```
 
 All libraries can be installed through conda or pip using 'requirements.txt'
+To use conda, first initialize conda in your shell with
 ```
-conda install requirements.txt
+conda init
+```
+Then install the module with
+```
+conda install -r requirements.txt
 ```
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 # Notebooks
 The notebook folder contains multiple notebooks used to extract datasets and run models. `Training_loop.ipynb` is the main loop that runs a specified dataset through the machine learning models for every band (delta, theta, alpha, beta, highbeta, gamma) and inserts it into a csv file. `Data_with_Age_Education_IQ.ipynb` contains code for extracting certain sections of the original data. 
