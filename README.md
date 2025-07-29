@@ -16,13 +16,24 @@ You can find the conda-forge installation instructions at https://conda-forge.or
 
 Create a conda environment using
 ```
-conda create --name <my-env>
+conda create --name psych-classifier 
 ```
-
+And activate the environment with
+```
+conda activate psych-classifier
+```
 Then install the module with
 ```
-conda install -r requirements.txt
+conda install --file requirements.txt
 ```
+To set up the Jupyter environment, use
+
+```
+python -m ipykernel install --user --name=psych-classifier
+jupyter lab
+```
+This will create a Jupyter kernel that matches the installed packages and then open the editor.
+
 
 # Notebooks
 The notebook folder contains multiple notebooks used to extract datasets and run models. `Training_loop.ipynb` is the main loop that runs a specified dataset through the machine learning models for every band (delta, theta, alpha, beta, highbeta, gamma) and inserts it into a csv file. `Data_with_Age_Education_IQ.ipynb` contains code for extracting certain sections of the original data. 
