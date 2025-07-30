@@ -36,7 +36,19 @@ This will create a Jupyter kernel that matches the installed packages and then o
 
 
 # Notebooks
-The notebook folder contains multiple notebooks used to extract datasets and run models. `Training_loop.ipynb` is the main loop that runs a specified dataset through the machine learning models for every band (delta, theta, alpha, beta, highbeta, gamma) and inserts it into a csv file. `Data_with_Age_Education_IQ.ipynb` contains code for extracting certain sections of the original data. 
+The notebook folder contains multiple notebooks used to extract datasets, run models, and get results. 
+
+`Data_Extraction.ipynb` - This notebook extracts specified sections from the original dataset and generates CSV files for the specified disorder.
+
+`Model_Training.ipynb` - This notebook contains the main loop that runs every file in a specified folder through the machine learning models for every band (delta, theta, alpha, beta, highbeta, gamma, all) and inserts the results into a csv file. 
+
+`DisordervsDisorder.ipynb` - This notebook compares specified disorders to other disorders and runs a loop through all the frequency bands and different machine learning models and prints out the results. 
+
+`Finding_Best_Features.ipynb` - This notebook calculates the averages and standard deviations for each algorithm in the csv files generated from the Model_Training notebook. It also filters through the different disorders and finds the feature combinations that produced the best results for each algorithm and each disorder, then stores them in a csv file.
+
+`Plotting_Results.ipynb` - This notebook takes in the files with averages and standard deviations, and plots the results in line graphs on matplotlib. 
+
+The notebooks should be run in the order they are listed above. 
 
 
 # Data
