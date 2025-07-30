@@ -56,7 +56,20 @@ The notebooks should be run in the order they are listed above.
 
 
 # Data
-The Data folder contains the different feature combination data for each psychiatric disorder. All of the EEG data was sourced from `https://osf.io/8bsvr/`, an open repository.
+The Data folder contains the different feature combination data for each psychiatric disorder. 
+
+Inside of the `Combination-Data-Files` are two folders:
+
+The folder `All_Main_Disorders` contains the extracted PSD, FC, and PSD + FC data for each disorder. In `Main_Disorders_Without_Age_Education_IQ`, there are the PSD and FC data of each band for the disorders.
+
+The folder `All_Specific_Disorders` has the extracted PSD, FC, and PSD + FC data for each specific disorder. 
+
+Inside of the `Results` folder are csv files with the averages and standard deviations of the model data, as well as the best features found by the `Finding_Best_Features.ipynb` notebook. 
+
+`all_eeg_data.csv` is a file with the original EEG data for all of the disorders and bands. 
+
+
+All of the EEG data was sourced from https://osf.io/8bsvr/, an open repository.
 
 # License
 This project is licensed under the GNU General Public License v3.0
