@@ -1,7 +1,11 @@
 # Psychiatric Disorder Classifier
 This repository contains jupyter notebooks with various machine learning algorithms trained on the datasets.
 # Overview
-Early detection and intervention are critical for prevention and effective treatment of psychiatric disorders. However, current diagnostic methods have limitations such as patient bias and interpretation. Using data from electroencephalograms (EEG), machine learning models were built and trained on different feature combinations. To address the curse of dimensionality resulting from high-dimensional spaces for a small amount of data, principal component analysis was applied. 
+Early detection and intervention are critical for prevention and effective treatment of psychiatric disorders. However, current diagnostic methods have limitations such as patient bias and interpretation. Using data from electroencephalograms (EEG), machine learning models were built and trained on different feature combinations. To address the curse of dimensionality resulting from high-dimensional spaces for a small amount of data, principal component analysis (PCA) was applied. 
+
+This project is based on the data and methodology from:
+
+Park SM, Jeong B, Oh DY, Choi C-H, Jung HY, Lee J-Y, Lee D and Choi J-S (2021) Identification of Major Psychiatric Disorders From Resting-State Electroencephalography Using a Machine Learning Approach. Front. Psychiatry 12:707581. doi: 10.3389/fpsyt.2021.707581
 
 # Installation
 This project can be installed using git via:
