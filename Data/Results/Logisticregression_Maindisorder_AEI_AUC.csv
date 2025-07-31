@@ -1,4 +1,4 @@
-,Addictive,Anxiety,Mood,OCD,Schizophrenia,Trauma and Stress-Related
+,Addictive (n = 128),Anxiety (n = 107),Mood (n = 266),OCD (n = 46),Schizophrenia (n = 117),Trauma and Stress-Related (n = 128)
 "Without Age, Education, IQ",0.5888384615,0.6507153846,0.6209692308,0.5846692308,0.6372846154,0.6323846154
 "With Age, Education, IQ",0.749271137,0.8771043771,0.9,0.6750992063,0.8861471861,0.894047619
 SD without,0.05022810532,0.0814775618,0.1039904834,0.1122853091,0.07765310518,0.07603359834
