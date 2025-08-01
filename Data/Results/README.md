@@ -9,6 +9,8 @@ This folder contains csv files of the main results
 
 `Logisticregression_Maindisorder_Average_AUC.csv` - The average logistic regression AUC values and standard deviations for each main disorder with PCA applied, and without
 
+`Logisticregression_Specificdisorder_Average_AUC.csv` - The average logistic regression AUC values and standard deviations for each specific disorder with PCA applied, and without
+
 `Main_Disorder_Data.csv` - Contains the accuracy and AUC values of all of the models for every main disorder feature combination
 
 `Main_Model_Average_AUC.csv` - The average AUC values and standard deviations of all of the main disorders for each machine learning algorithm with PCA applied, and without
